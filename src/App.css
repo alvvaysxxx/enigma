@@ -49,6 +49,10 @@ p {
   font-size: 48px;
 }
 
+.center {
+  text-align: center;
+}
+
 @font-face {
   font-family: 'Furore';
   src: url(../src/fonts/FURORE.OTF);
