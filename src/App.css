@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+h1, h2, h3, h4, h5, h6, p, body {
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+body {
+  background-color: #1D1D1D;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1 {
+  font-family: 'Helvetica';
   color: white;
+  font-size: 96px;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-family: 'Helvetica';
+  color: white;
+  font-size: 96px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+p {
+  color: rgba(255, 255, 255, 0.747);
+  font-family: 'Inter';
+  font-size: 24px;
+}
+
+.right{
+  text-align: end;
+  text-align: right;
+}
+
+.main {
+  margin-top: 200px;
+  background-repeat: no-repeat;
+  height: 950px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.history {
+  color: greenyellow;
+  font-family: 'Helvetica';
+  font-size: 48px;
+}
+
+@font-face {
+  font-family: 'Furore';
+  src: url(../src/fonts/FURORE.OTF);
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url(../src/fonts/HELVETICA_REGULAR.OTF);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../src/fonts/Inter-Regular.ttf);
+}
+
+@media(max-width: 865px) {
+  h1, h2 {
+    font-size: 64px;
   }
-  to {
-    transform: rotate(360deg);
+  .history {
+    font-size: 32px;
+  }
+}
+
+@media(max-width: 700px) {
+  h1, h2 {
+    font-size: 48px;
+  }
+  .history {
+    font-size: 24px;
+  }
+}
+
+@media(max-width: 500px) {
+  h1,h2 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 18px;
   }
 }
