@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  font-family: 'Helvetica';
+  font-family: 'Inter';
   color: white;
   font-size: 96px;
 }
@@ -33,10 +33,13 @@ p {
 }
 
 .main {
-  margin-top: 160px;
-  padding-top: 40px;
   background-repeat: no-repeat;
-  height: 950px;
+  background-size: cover;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .inline {
@@ -49,8 +52,61 @@ p {
   font-size: 48px;
 }
 
+.enigmastd {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  padding-right: 55px;
+  padding-left: 55px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff00;
+  color: white;
+  font-family: 'Helvetica';
+  border: none;
+  border: 2px solid white;
+}
+
+.top-left{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.bottom-left{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
 .center {
   text-align: center;
+}
+
+.workCard {
+  position: relative;
+  margin-top: 100px;
+  z-index: 2;
+  background-color: #f2f2f2;
+  top: 500px;
+  overflow: auto;
 }
 
 @font-face {
