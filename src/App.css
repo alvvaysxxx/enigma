@@ -21,6 +21,12 @@ h2 {
   font-size: 96px;
 }
 
+h3 {
+  font-family: 'Helvetica';
+  color: white;
+  font-size: 48px;
+}
+
 p {
   color: rgba(255, 255, 255, 0.747);
   font-family: 'Inter';
@@ -75,24 +81,28 @@ p {
   position: absolute;
   top: 50px;
   left: 0;
+  margin-left: 10px;
 }
 
 .top-right{
   position: absolute;
   top: 50px;
   right: 0;
+  margin-right: 10px;
 }
 
 .bottom-left{
   position: absolute;
-  bottom: 50px;
+  bottom: 65px;
   left: 0;
+  margin-left: 10px;
 }
 
 .bottom-right{
   position: absolute;
-  bottom: 50px;
+  bottom: 65px;
   right: 0;
+  margin-right: 10px;
 }
 
 
@@ -100,13 +110,18 @@ p {
   text-align: center;
 }
 
+.worksPage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 .workCard {
-  position: relative;
-  margin-top: 100px;
-  z-index: 2;
-  background-color: #f2f2f2;
-  top: 500px;
-  overflow: auto;
+  background-color: #1D1D1D;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 50%;
 }
 
 @font-face {
