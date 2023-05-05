@@ -79,28 +79,28 @@ p {
 
 .top-left{
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 0;
   margin-left: 10px;
 }
 
 .top-right{
   position: absolute;
-  top: 50px;
+  top: 100px;
   right: 0;
   margin-right: 10px;
 }
 
 .bottom-left{
   position: absolute;
-  bottom: 65px;
+  bottom: 100px;
   left: 0;
   margin-left: 10px;
 }
 
 .bottom-right{
   position: absolute;
-  bottom: 65px;
+  bottom: 100px;
   right: 0;
   margin-right: 10px;
 }
