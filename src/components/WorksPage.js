@@ -8,7 +8,10 @@ export default function WorksPage() {
       {worksList.map((item, index) => {
         return (
         <div className = 'workCard'>
-          <h3 key = {index}>{item.name}</h3>
+          <h3 key = {index} >{item.name}</h3>
+          <p>{item.desc}</p>
+          {item.hasOwnProperty('link') ? (<a className = 'link' href = {item.link} target = '__blank'><button className = 'btn' style = {{marginRight: '25px', marginTop: '15px'}}>Работа</button></a>) : (undefined)}
+          {item.hasOwnProperty('git') ? (<a className = 'link' href = {item.git} target = '__blank'><button className = 'btn' style = {{marginRight: '25px', marginTop: '15px'}}>Исходный код</button></a>) : (undefined)}
         </div>
         )
       })}

@@ -79,28 +79,28 @@ p {
 
 .top-left{
   position: absolute;
-  top: 50px;
+  top: 100px;
   left: 0;
   margin-left: 10px;
 }
 
 .top-right{
   position: absolute;
-  top: 50px;
+  top: 100px;
   right: 0;
   margin-right: 10px;
 }
 
 .bottom-left{
   position: absolute;
-  bottom: 65px;
+  bottom: 100px;
   left: 0;
   margin-left: 10px;
 }
 
 .bottom-right{
   position: absolute;
-  bottom: 65px;
+  bottom: 100px;
   right: 0;
   margin-right: 10px;
 }
@@ -117,11 +117,14 @@ p {
 }
 
 .workCard {
-  background-color: #1D1D1D;
+  background: rgba(217, 217, 217, 0.01);
+  backdrop-filter: blur(5px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px;
   width: 50%;
   margin: 0 auto;
   margin-bottom: 15px;
-  width: 50%;
+  width: 50%
 }
 
 @font-face {
@@ -163,5 +166,8 @@ p {
   }
   p {
     font-size: 18px;
+  }
+  .workCard {
+    width:80%;
   }
 }
