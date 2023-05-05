@@ -10,7 +10,7 @@ const worksList = [
     desc: 'Хоррор игра. (В разработке)',
   },
   {
-    name: "PyScramblesGenerator",
+    name: "Enigma Scrambler",
     desc: 'Python модуль, позволяющий генерировать скрамблы для различных головоломок.',
     git: 'https://github.com/alvvaysxxx/pyscramblesgenerator'
   },
