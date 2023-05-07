@@ -65,7 +65,7 @@ export default function Main() {
   return (
     <div className = 'main' style = {{backgroundImage: `url(${animation})`}}>
       <Link to = 'about'><button className = 'btn top-left zeroOpacity' ref = {el => {aboutBtn = el}}>О нас</button></Link>
-      <button className = 'btn top-right zeroOpacity' ref = {el => { contactsBtn = el}}>Контакты</button>
+      <Link to = 'contacts'><button className = 'btn top-right zeroOpacity' ref = {el => { contactsBtn = el}}>Контакты</button></Link>
       <h1 className = 'center enigmastd zeroOpacity' ref = {el => {enigmastd = el}}>Enigma Studio</h1>
       <Link to = 'works'><button className = 'btn bottom-left zeroOpacity' ref = {el => {projectsBtn = el}}>Проекты</button></Link>
       <button className = 'btn bottom-right zeroOpacity' ref = {el => {historyBtn = el}} >История</button>
