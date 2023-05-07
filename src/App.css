@@ -42,8 +42,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  top: 0;
-  left: 0;
 }
 
 .inline {
@@ -77,28 +75,28 @@ p {
 
 .top-left{
   position: absolute;
-  top: 100px;
+  top: 10px;
   left: 0;
   margin-left: 10px;
 }
 
 .top-right{
   position: absolute;
-  top: 100px;
+  top: 10px;
   right: 0;
   margin-right: 10px;
 }
 
 .bottom-left{
   position: absolute;
-  bottom: 100px;
+  bottom: 10px;
   left: 0;
   margin-left: 10px;
 }
 
 .bottom-right{
   position: absolute;
-  bottom: 100px;
+  bottom: 10px;
   right: 0;
   margin-right: 10px;
 }
@@ -144,6 +142,10 @@ p {
   position: fixed;
   bottom: 25px;
   left: 50%;
+}
+
+.zeroOpacity {
+  opacity: 0;
 }
 
 .home {
