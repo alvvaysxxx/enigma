@@ -1,3 +1,9 @@
 * {
   cursor: none;
 }
+
+@media(max-width: 991px) {
+  * {
+    cursor: auto;
+  }
+}
