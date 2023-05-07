@@ -7,13 +7,23 @@ import { easing } from '@mui/material'
 
 
 export default function Main() {
-  
+
   let projectsBtn = useRef(null)
   let historyBtn = useRef(null)
   let aboutBtn = useRef(null)
   let contactsBtn = useRef(null)
+  let enigmastd = useRef(null)
 
   useEffect(() => {
+    TweenMax.to(
+      enigmastd,
+      1,
+      {
+        opacity: 1,
+        ease: Power3.easeInOut,
+        delay: .5
+      }
+    )
     TweenMax.to(
       projectsBtn,
       2,
@@ -56,7 +66,7 @@ export default function Main() {
     <div className = 'main' style = {{backgroundImage: `url(${animation})`}}>
       <Link to = 'about'><button className = 'btn top-left zeroOpacity' ref = {el => {aboutBtn = el}}>О нас</button></Link>
       <button className = 'btn top-right zeroOpacity' ref = {el => { contactsBtn = el}}>Контакты</button>
-      <h1 className = 'center enigmastd'>Enigma Studio</h1>
+      <h1 className = 'center enigmastd zeroOpacity' ref = {el => {enigmastd = el}}>Enigma Studio</h1>
       <Link to = 'works'><button className = 'btn bottom-left zeroOpacity' ref = {el => {projectsBtn = el}}>Проекты</button></Link>
       <button className = 'btn bottom-right zeroOpacity' ref = {el => {historyBtn = el}} >История</button>
 </div>
