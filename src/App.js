@@ -6,6 +6,7 @@ import WorksPage from './components/WorksPage';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import About from './components/About';
 import Contacts from './components/Contacts';
+import Showcase from './components/Showcase';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path = 'works' element = {<WorksPage/>}/>
           <Route path = 'about' element = {<About/>}/>
           <Route path = 'contacts' element = {<Contacts/>}/>
+          <Route path = 'showcase' element = {<Showcase/>}/>
         </Routes>
       </div>
     </BrowserRouter>

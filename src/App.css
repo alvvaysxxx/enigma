@@ -175,6 +175,22 @@ p {
   left: 0;
 }
 
+.showcasePage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.showcaseTitle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .contactsText {
   position: absolute;
   top: 50%;

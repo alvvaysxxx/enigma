@@ -68,7 +68,7 @@ export default function Main() {
       <Link to = 'contacts'><button className = 'btn top-right zeroOpacity' ref = {el => { contactsBtn = el}}>Контакты</button></Link>
       <h1 className = 'center enigmastd zeroOpacity' ref = {el => {enigmastd = el}}>Enigma Studio</h1>
       <Link to = 'works'><button className = 'btn bottom-left zeroOpacity' ref = {el => {projectsBtn = el}}>Проекты</button></Link>
-      <button className = 'btn bottom-right zeroOpacity' ref = {el => {historyBtn = el}} >История</button>
+      <Link to = 'showcase'><button className = 'btn bottom-right zeroOpacity' ref = {el => {historyBtn = el}} >Showcase</button></Link>
 </div>
   )
 }
