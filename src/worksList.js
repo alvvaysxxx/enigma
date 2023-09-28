@@ -7,7 +7,8 @@ const worksList = [
   },
   {
     name: "Twins' Hunt",
-    desc: 'Хоррор игра. (В разработке)',
+    desc: 'Хоррор игра.',
+    link: "https://play.google.com/store/apps/details?id=com.EnigmaStudio.TwinsHunt"
   },
   {
     name: "Enigma Scrambler",
